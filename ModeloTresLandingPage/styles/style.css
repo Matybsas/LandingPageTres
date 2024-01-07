@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.conteiner__general {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+/**FLECHA ABAJO*/
+.conteiner_arrow_down {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner_arrow_down a img {
+    width: 3.4vw;
+    border: 5px solid rgb(224, 180, 176);
+    border-radius: 50px;
+
+}
+
+.conteiner_arrow_down a img:hover {
+    background-color: rgba(224, 180, 176, 0.491);
+}
+
+/**PORTADA*/
+.Banner__Portada {
+    width: 100%;
+    height: 1080px;
+    background-image: url(../assets/image_portada.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteiner__Informacion {
+    width: 95%;
+    height: 1000px;
+    text-align: justify;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner__Informacion h1 {
+    font-size: 5vw;
+    margin: 30px 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+.conteiner__Informacion p {
+    font-size: 2vw;
+    margin: 30px 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+/**Galeria Productos*/
+.Galeria__Productos {
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 212, 228);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.Galeria__Productos h2 {
+    width: 100%;
+    height: auto;
+    font-size: 2.5vw;
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    text-align: center;
+    margin: 3vw 0;
+
+}
+
+.conteiner_galeria {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.conteiner__image__galeria {
+    width: 300px;
+    height: 250px;
+    margin: 20px 0;
+}
+
+.conteiner__image__galeria img {
+    width: 300px;
+    height: 250px;
+    border: 2px solid #f99097;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.677);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+/**PRODUCTOS DESTACADOS*/
+.Productos__Destacados {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner__Banner_Uno,
+.conteiner__Banner_Dos,
+.conteiner__Banner_Tres {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 205, 199);
+    margin: 15px;
+}
+
+.conteiner_image_Banner {
+    width: 45%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conteiner_image_Banner img {
+    width: 100%;
+    max-height: 400px;
+}
+
+.conteiner__Iformacion {
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    font-size: 1.5vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/**BENEFICIOS*/
+.Beneficios {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteiner_beneficios {
+    width: 32%;
+    height: 60vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__beneficios {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__beneficios img {
+    max-width: 80%;
+    max-height: 25vh;
+}
+
+.info__beneficio {
+    width: 90%;
+    height: 30vh;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    text-align: center;
+    font-size: 0.7vw;
+}
+
+.info__beneficio p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.info__beneficio a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    padding: 5px;
+    border: 2px solid rgb(234, 196, 196);
+    border-radius: 5px;
+}
+
+.info__beneficio a:hover {
+    background-color: #fbcacd;
+    box-shadow: 2px 2px 7px black;
+}
+
+/**NUESTRA EMPRESA*/
+.Nuestra__empresa {
+    width: 100%;
+    height: 107vh;
+    background-image: url(../assets/nuestraEmpresa1.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: end;
+    justify-content: center;
+}
+
+.conteiner__info__empresa {
+    width: 40%;
+    height: 100vh;
+    padding: 30px;
+    font-size: 1.5vw;
+    background-color: rgba(255, 255, 255, 0.488);
+    border-left: 6px solid rgb(224, 180, 176);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+    align-items: center;
+}
+
+/**CONTACTO*/
+.contacto {
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 212, 228);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner__Formulario {
+    width: 60%;
+    height: auto;
+    margin: 5vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff45;
+}
+
+.conteiner__datos__contacto {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner__datos__contacto h3,
+.conteiner__datos__contacto h4,
+form h2,
+form input,
+form button,
+form textarea {
+    margin: 1vw;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 20vw;
+    height: 4vh;
+    border: 3px solid rosybrown;
+    border-radius: 50px;
+
+}
+
+form button {
+    width: 15vw;
+    height: 4vh;
+    border: 3px solid rosybrown;
+    border-radius: 50px;
+    font-size: 1vw;
+
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #fbcacd;
+
+}
+
+/**CHAT WHATSAPP*/
+.chat__Whats__App {
+    width: 15%;
+    height: auto;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat__Whats__App a img {
+    height: 50px;
+}
+
+/**SCROLL*/
+.conteiner__Scroll_up a {
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 80px;
+    position: fixed;
+    background-color: rgba(165, 42, 42, 0.573);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.conteiner__Scroll_up img {
+    width: 95%;
+    height: auto;
+
+}
+
+/**FOOTER*/
+footer,
+.conteiner__Redes__Sociales {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes__sociales a {
+    width: 60%;
+    height: 6vh;
+}
+
+.redes__sociales a img {
+    height: 4vh;
+    margin: 20px 0;
+
+}
+
+.copy_hr {
+    width: 35%;
+    border: 1px solid black;
+    margin: 15px 0;
+}
+
+@media (max-width: 1024px) {
+
+    /**PORTADA*/
+    .Banner__Portada {
+        background-size: 150%;
+    }
+
+    /**PRODUCTOS DESTACADOS*/
+    .conteiner__Iformacion h2 {
+        font-size: 2.7vw;
+    }
+
+    .conteiner__Iformacion p {
+        font-size: 1.6vw;
+    }
+
+    /**GALERIA*/
+    .Galeria__Productos h2 {
+        font-size: 5vw;
+    }
+
+    /**BENEFICIOS*/
+    .info__beneficio h2 {
+        font-size: 1.7vw;
+    }
+
+    .info__beneficio p {
+        font-size: 1.7vw;
+    }
+
+
+    .Nuestra__empresa {
+        background-size: 130%;
+    }
+
+    .conteiner__info__empresa {
+        font-size: 2.7vw;
+        text-align: center;
+    }
+
+    /**WHATS APP*/
+
+    .chat__Whats__App {
+        right: 8%;
+
+    }
+}
+
+@media (max-width: 768px) {
+    /**CHAT WHATSAPP*/
+.chat__Whats__App {
+    right: 80px ;
+   }
+
+
+    /**ARROW*/
+    .conteiner_arrow_down a img {
+        width: 8vw;
+    
+    }
+    /**PORTADA*/
+    .Banner__Portada {
+        background-size: 300%;
+
+    }
+
+    .conteiner__Informacion h1 {
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .conteiner__Informacion p {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    /**PRODUCTOS DESTACADOS*/
+
+    .conteiner__Banner_Uno,
+    .conteiner__Banner_Dos,
+    .conteiner__Banner_Tres {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .conteiner_image_Banner {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .conteiner__Iformacion {
+        width: 90%;
+        height: auto;
+
+    }
+
+    .conteiner__Iformacion h2 {
+        font-size: 4vw;
+    }
+
+    .conteiner__Iformacion p {
+        font-size: 2vw;
+    }
+
+    /**BENEFICIOS*/
+    .conteiner_beneficios {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info__beneficio h2 {
+        font-size: 3vw;
+    }
+
+    .info__beneficio a {
+        font-size: 2vw;
+    }
+
+    /**NUESTRA EMPRESA*/
+    .Nuestra__empresa {
+        background-size: 250%;
+        background-position: center;
+    }
+    .conteiner__info__empresa h2{
+        width: 95%;
+        font-size:6vw;
+    }
+    .conteiner__info__empresa p{
+        width: 95%;
+        font-size:3vw;
+    }
+    /**CONTACTO*/
+    .conteiner__Formulario {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    form input,
+    form textarea {
+        width: 40vw;
+        height: 4vh;
+    }
+
+    form button {
+        width: 25vw;
+        height: 4vh;
+        font-size: 2vw;
+    }
+
+
+    
+
+}
+
+@media (max-width: 425px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {}
